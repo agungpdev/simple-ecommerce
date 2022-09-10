@@ -1,0 +1,110 @@
+.navbar{
+    padding: 20px;
+    &-brand{
+        // margin: 0 1%;
+        a{
+            text-decoration: none;
+            color: black;
+            font-size: 1em;
+            font-weight: 500;
+            span{
+                color: $primary;
+            }
+        }
+    }
+    
+    &-menu{
+        // margin: 0 1.5%;
+        z-index: 1;
+        ul{
+            display: flex;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+
+            li{
+                position: relative;
+                text-transform: capitalize;
+                
+                a{
+                    padding: 10px;
+                    text-decoration: none;
+                    color: $shadow;
+
+                    &:hover{
+                        color: $primary;
+                        font-weight: 500;
+                    }
+                    
+                }
+                // .submenu{
+                //     position: absolute;
+                //     display: none;
+                //     // z-index: 1;
+                //     width: 150px;
+                //     background: $netral;
+                //     li{
+                //         a{
+                //             text-decoration: none;
+                //             color:$text;
+                //             padding: 5px;
+                //             display: block;
+                //             &:hover{
+                //                 background: $primary;
+                //                 color: $netral;
+                //             }
+                //         }
+                //     }
+                // }
+                // &:hover .submenu{
+                //     display: block;
+                // }
+            }
+        }
+        @media screen and (max-width: 885px){
+            display: none;
+        }
+        
+    }
+    #menuon:checked ~ .navbar-menu{
+        display: block;
+        position: absolute;
+        background: $bgprimary;
+        top: 80px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        ul{
+            display: block;
+
+            li{ 
+                
+                a{
+                    color: $secondary;
+                    display: block;
+                    &:hover{
+                        background: $primary;
+                        color: $netral;
+                    }
+
+                }
+            }
+        } 
+    }
+
+    &-member{
+        a{
+            margin: 0 10px;
+        }
+        
+        .register{
+            
+            color: white;
+            background: $primary;
+        }
+
+        @media screen and (max-width: 980px){
+            display: none;
+        }
+    }
+}

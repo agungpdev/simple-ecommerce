@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,700;0,900;1,400;1,500;1,900&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+    rel="stylesheet" />
+  <!-- FOnt Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- CSS Style -->
+  <link rel="stylesheet" href="../assets/css/style.css" />
+  <link rel="icon" type="image/x-icon" href="/assets/favicon_io/favicon(2).ico">
+  <title>UNME Product</title>
+</head>
+
+<body>
+  <div class="fa-brands fa-whatsapp customer"></div>
+  <header>
+    <!-- Section Navbar Start -->
+    <div class="navbar">
+      <div class="container">
+        <div class="row ai-center jc-sbetween">
+          <div class="navbar-brand">
+            <a href="../index.html">
+              <h1>UNME <span>Store</span></h1>
+            </a>
+          </div>
+          <input type="checkbox" name="menuon" id="menuon" class="d-none">
+          <label for="menuon">
+            <img src="https://cdn-icons-png.flaticon.com/512/2516/2516745.png" alt="" class="img-32 d-none tab-block">
+          </label>
+          <div class="navbar-menu">
+            <ul>
+              <li><a href="/index.html">home</a></li>
+              <li><a href="/products/products.html">product</a></li>
+              <li><a href="/category/category.html">category</a></li>
+              <li><a href="/store/store.html">store</a></li>
+              <li><a href="/contact/contact.html">contact</a></li>
+              <li class="md-block d-none"><a href="" for="modal" id="modal-btn">Masuk</a></li>
+              <li class="md-block d-none"><a href="/member/register.html">Daftar</a></li>
+            </ul>
+          </div>
+          <div class="navbar-member">
+            <a href="/member/login.html" class="login btn btn-line">Masuk</a>
+            <a href="/member/register.html" class="register btn btn-line">Daftar</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Section Navbar End -->
+
+        <!-- Modal Login Section Start -->
+        <div class="row ai-center land-reverse jc-center">
+          <div class="col6 col12-mobile col12-landscape modal">
+              <div class="col12 card form-wrap modal-wrap content-modal" id="modal">
+                  <div class="modal-close-btn">
+                      <img src="https://cdn-icons-png.flaticon.com/512/2734/2734822.png" alt="" class="img-32">
+                  </div>
+                  <div class="form">
+                      <h4 class="text-center">Masuk</h4>
+                      <p class="text-center">Belum punya akun UNME? <a href="/member/register.html">Daftar</a>
+                      </p>
+                      <form action="/" method="">
+                          <div class="form-group">
+                              <label for="email">
+                                  <p style="font-size: 14px;">Email</p>
+                              </label>
+                              <input type="email" name="email" placeholder="Masukkan Email Anda"
+                                  class="form-control">
+                          </div>
+                          <div class="form-group">
+                              <label for="password"><p style="font-size: 14px;">Password</p></label>
+                              <input type="password" name="password" placeholder="Password" class="form-control">
+                          </div>
+                          <div class="form-group">
+                              <button type="submit" id="loginEmail" class="form-control button-member">MASUK</button>
+                          </div>
+                          <p class="text-center">atau masuk dengan</p>
+                          <div class="form-group">
+                              <div class="form-icons">
+                                  <button class="form-control" id="loginGoogle"><a
+                                          href="/">GOOGLE</a></button>
+                                  <div class="icon-control">
+                                      <img src="https://cdn-icons-png.flaticon.com/512/2504/2504739.png"
+                                          alt="" class="img-24">
+                                  </div>
+                              </div>
+                          </div>
+                      </form>
+                  </div>
+              </div>
+          </div>
+        </div>
+        <!-- Modal Login Section End -->
+
+    <!-- Banner Header Section Start -->
+    <div class="header-banner">
+      <div class="container">
+        <div class="row">
+          <div class="header-banner-img">
+            <img src="../assets/images/main/Ecommerce Banner4.png" alt="" class="img-responsive">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Banner Header Section End -->
+  </header>
+
+  <main>
+    <!-- Trending Section Start -->
+    <div class="trending">
+      <div class="spacersection"></div>
+      <div class="container">
+        <div class="trending-title product-page d-flex jc-sbetween ai-center">
+          <div class="product-page-left">
+            <h4>Product List</h4>
+          </div>
+          <div class="product-page-right">
+            <p>Showing 8 of 8 Result</p>
+          </div>
+        </div>
+        <div class="spacer20"></div>
+        <div class="row">
+          <div class="col3 col4-tablet col6-mobileBig col12-mobile card">
+            <div class="trending-product-list">
+              <img src="/assets/images/main/product-9.jpg" alt="" class="img-responsive" />
+              <div class="trending-divider">
+                <span>terlaris</span>
+              </div>
+              <p>UNME Watch One F12</p>
+              <span class="trending-price">Rp 1.449.000</span>
+            </div>
+          </div>
+          <div class="col3 col4-tablet col6-mobileBig col12-mobile card">
+            <div class="trending-product-list">
+              <img src="/assets/images/main/product-10.jpg" alt="" class="img-responsive" />
+              <div class="trending-divider">
+                <span>terlaris</span>
+              </div>
+              <p>UNME Shoes Sport B123</p>
+              <span class="trending-price">Rp 449.000</span>
+            </div>
+          </div>
+          <div class="col3 col4-tablet col6-mobileBig col12-mobile card">
+            <div class="trending-product-list">
+              <img src="/assets/images/main/product-11.jpg" alt="" class="img-responsive" />
+              <div class="trending-divider">
+                <span>terlaris</span>
+              </div>
+              <p>UNME Cassual Shoes V9</p>
+              <span class="trending-price">Rp 249.000</span>
+            </div>
+          </div>
+          <div class="col3 col4-tablet col6-mobileBig col12-mobile card">
+            <div class="trending-product-list">
+              <img src="/assets/images/main/product-4.jpg" alt="" class="img-responsive" />
+              <div class="trending-divider">
+                <span>terlaris</span>
+              </div>
+              <p>UNME T-shirt K67</p>
+              <span class="trending-price">Rp 149.000</span>
+            </div>
+          </div>
+          <div class="col3 col4-tablet col6-mobileBig col12-mobile card">
+            <div class="trending-product-list">
+              <img src="/assets/images/main/product-5.jpg" alt="" class="img-responsive" />
+              <div class="trending-divider">
+                <span>terlaris</span>
+              </div>
+              <p>UNME Shoes Kalk N17</p>
+              <span class="trending-price">Rp 749.000</span>
+            </div>
+          </div>
+          <div class="col3 col4-tablet col6-mobileBig col12-mobile card">
+            <div class="trending-product-list">
+              <img src="/assets/images/main/product-7.jpg" alt="" class="img-responsive" />
+              <div class="trending-divider">
+                <span>terlaris</span>
+              </div>
+              <p>UNME Stocking Cas18</p>
+              <span class="trending-price">Rp 149.000</span>
+            </div>
+          </div>
+          <div class="col3 col4-tablet col6-mobileBig col12-mobile card">
+            <div class="trending-product-list">
+              <img src="/assets/images/main/product-12.jpg" alt="" class="img-responsive" />
+              <div class="trending-divider">
+                <span>terlaris</span>
+              </div>
+              <p>UNME Pants Nil F16</p>
+              <span class="trending-price">Rp 249.000</span>
+            </div>
+          </div>
+          <div class="col3 col4-tablet col6-mobileBig col12-mobile card">
+            <div class="trending-product-list">
+              <img src="/assets/images/main/product-6.jpg" alt="" class="img-responsive" />
+              <div class="trending-divider">
+                <span>terlaris</span>
+              </div>
+              <p>UNME T-shirt Puma L-W9</p>
+              <span class="trending-price">Rp 249.000</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="spacersection"></div>
+    </div>
+    <!-- Trending Section End -->
+
+    <!-- Subscribe Section Start -->
+    <div class="subscribe">
+      <div class="container">
+        <div class="row ai-center">
+          <div class="col6 col12-tablet">
+            <div class="subscribe-left d-flex ai-center">
+              <div class="paper-icon">
+                <span class="fa-regular fa-paper-plane"></span>
+              </div>
+              <div class="paper-text">
+                <h5>Signup For Newsletter</h5>
+                <p>Kami akan selalu mengabari info terbaru melalui E-mail</p>
+              </div>
+            </div>
+          </div>
+          <div class="col6 col12-tablet">
+            <div class="form">
+              <div class="form-group">
+                <div class="form-subscribe">
+                  <input type="email" name="email" id="email" placeholder="Enter Your Email Address"
+                    class="form-control">
+                  <div class="subscribe-control">
+                    <h5>SUBSCRIBE</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Subscribe Section End -->
+  </main>
+
+  <footer>
+    <div class="footer">
+      <div class="spacersection"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col3 col6-tablet col12-mobile">
+            <div class="footer-brand">
+              <h5>UNME <span>Store</span></h5>
+              <p>
+                Sebagai Store Fashion Online di Indonesia, kami menciptakan
+                kemungkinan-kemungkinan gaya tanpa batas dengan cara
+                memperluas jangkauan produk, mulai dari produk internasional
+                hingga produk lokal dambaan. Kami menjadikan Anda sebagai
+                pusatnya.
+              </p>
+            </div>
+          </div>
+          <div class="col3 col6-tablet col12-mobile">
+            <div class="footer-link">
+              <h5>Links</h5>
+              <div class="spacer10"></div>
+              <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Product</a></li>
+                <li><a href="">Category</a></li>
+                <li><a href="">Store</a></li>
+                <li><a href="">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col3 col6-tablet col12-mobile">
+            <h5>Services</h5>
+            <div class="spacer10"></div>
+            <ul>
+              <li><a href="">About us</a></li>
+              <li><a href="">Blog & Articles</a></li>
+              <li><a href="">Terms and Condition</a></li>
+              <li><a href="">Privacy Policy</a></li>
+              <li><a href="">Contact us</a></li>
+            </ul>
+          </div>
+          <div class="col3 col6-tablet col12-mobile">
+            <h5>Contact</h5>
+            <div class="spacer10"></div>
+            <ul>
+              <li>Address: Jl.Codelaras No.205A</li>
+              <li>Kediri, Pare AG17</li>
+              <li>Phone: 123 456 7890</li>
+              <li>Email: myagungperdana@gmail.com</li>
+              <li>Maps: Kediri, East java</li>
+            </ul>
+          </div>
+          <div class="col3 col6-tablet col12-mobile">
+            <div class="footer-sosmed">
+              <h5>Ikuti Kami</h5>
+              <div class="spacer10"></div>
+              <div class="sosmed-wrap d-flex">
+                <a href="https://www.instagram.com/fadilgemilang_" target="_blank"
+                  class="sosmed-icon fa-brands fa-instagram"></a>
+                </li>
+                <a href="https://www.tiktok.com/@fadilgemilang" target="_blank"
+                  class="sosmed-icon fa-brands fa-tiktok"></a>
+                </li>
+                <a href="https://www.twitter.com/fadilgemilang" target="_blank"
+                  class="sosmed-icon fa-brands fa-twitter"></a>
+                </li>
+                <a href="https://www.dribbble.com/fadilgemilang" target="_blank"
+                  class="sosmed-icon fa-brands fa-dribbble"></a>
+                <a href="https://www.github.com/myagungperdana" target="_blank"
+                  class="sosmed-icon fa-brands fa-github"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+<script src="../assets/js/script.js"></script>
+
+</html>

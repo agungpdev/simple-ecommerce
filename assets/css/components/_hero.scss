@@ -1,0 +1,116 @@
+.hero-right{
+   
+    .hero-wrap{
+        position: relative;
+
+        &-title{
+            position: absolute;
+            top: 5%;
+            left: 5%;
+
+        }
+        .hero-small{
+            position: absolute;
+            top: 58%;
+            left: 5%;
+            color: whitesmoke;
+            span{
+                font-weight: bold;
+                font-size: 14px;
+            }
+
+            @media screen and (max-width: 470px){
+                top: 3%;
+                span{
+                    font-size: 16px;
+                }
+            }
+        }
+        .hero-small2{
+            position: absolute;
+            top: 0;
+            left: 5%;
+            color: whitesmoke;
+            span{
+                font-weight: bold;
+                font-size: 14px;
+            }
+
+            @media screen and (max-width: 470px){
+                top: 3%;
+                span{
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
+
+.hero-left{
+    position: relative;
+    &-content{
+        &-desc{
+            position: absolute;
+            top: 30%;
+            left: 5%;
+
+            a{
+                color: $primary;
+                &:hover{
+                    background: $primary;
+                    color: $netral;
+                }
+            }
+
+            @media screen and (max-width: 980px){
+                top: 20%;
+
+            }
+
+            @media screen and (max-width: 650px){
+                top: 10%;
+            }
+
+            @media screen and (max-width: 470px){
+                top: 0;
+            }
+
+        }
+
+        @media screen and (max-width: 650px){
+            h2{
+                font-size: 22.4px;
+                line-height: 180%;
+            }
+            a{
+                font-size: 14px;
+            }
+        }
+
+        @media screen and (max-width: 390px){
+            h2{
+                font-size: 16px;
+                line-height: 180%;
+            }
+            p{
+                font-size: 14px;
+            }
+            a{
+                font-size: 12px;
+            }
+        }
+        @media screen and (max-width: 340px){
+            h2{
+                font-size: 14px;
+                line-height: 180%;
+            }
+            p{
+                font-size: 12px;
+            }
+            a{
+                font-size: 9px;
+            }
+        }
+
+    }
+}

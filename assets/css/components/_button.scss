@@ -1,0 +1,39 @@
+.btn{
+    padding: 10px 20px;
+    background: $primary;
+    color: $netral;
+    text-decoration: none;
+    display: inline-block;
+
+    &-medium{
+        background: none;
+        padding: 8px 15px;
+        border: 1px solid $primary;
+        color: $primary;
+        border-radius: 5px;
+        text-decoration: none;
+        display: inline-block;
+       
+        @media screen and (max-width: 650px){
+            padding: 5px 10px;
+        }
+    }
+    &-line{
+        background: none;
+        padding: 5px 20px;
+        border: 1px solid $primary;
+        color: $shadow;
+        border-radius: 10px;
+        text-decoration: none;
+        display: inline-block;
+    }
+
+    &-search{
+        border-radius: 20px;
+        padding: 8px 25px;
+    }
+    &-text{
+        background: none;
+        color: $primary;
+    }
+}
